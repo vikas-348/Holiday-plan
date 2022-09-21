@@ -2,9 +2,7 @@
 
 <p align="center">
 A Tourists guide web application, Developed to help tourists plan a optimal tour with just few clicks using various constraints like budget, time, priority, etc.
-Tourist often have to waste their time and resources in planning trip. They have to do all reaserach about places, there budget, available hotels, in what order they should
-visit places to minimize time of travel. Our website will do same thing for tourists using algorithm, it will generate optimal tour plan for tourists and provide with all 
-necessary information. Tourists can follow and track there plan during trip and update it any time. All travel time will be calculated using google maps api services.
+Tourist often have to waste their time and resources in planning trip. They have to do all reaserach about places, there budget, available hotels, in what order they should visit places to minimize time of travel. Our website will do same thing for tourists using algorithm, it will generate optimal tour plan for tourists and provide with all necessary information. Tourists can follow and track there plan during trip and update it any time. All travel time will be calculated using google maps api services.
 
 # Services
 
