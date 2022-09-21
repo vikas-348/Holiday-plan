@@ -1,9 +1,6 @@
 # Description
 
 <p align="center">
-  <img src="modules/static/assets/img/hero-img.png" />
-</p>
-
 A Tourists guide web application, Developed to help tourists plan a optimal tour with just few clicks using various constraints like budget, time, priority, etc.
 Tourist often have to waste their time and resources in planning trip. They have to do all reaserach about places, there budget, available hotels, in what order they should
 visit places to minimize time of travel. Our website will do same thing for tourists using algorithm, it will generate optimal tour plan for tourists and provide with all 
@@ -27,4 +24,4 @@ Itsdangerous, etc. are used to provide different functionalities of application.
 
 # Contact Us
 
-We are currently first year B-Tech undergraduate students at IIT Jodhpur. You can contact us at tripindia.iitj@gmail.com . 
+We are currently final year Student of SFIT Group-10.You can contact us at tripindia.iitj@gmail.com . 
