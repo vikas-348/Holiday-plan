@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up - Trip India</title>
+    <link href="{{ url_for('user.static', filename='assets/images/hero-img.png') }}" rel="icon">
+
+
+    <!-- Font Icon -->
+    <link rel="stylesheet"
+        href="{{ url_for('user.static', filename='signupassets/fonts/material-icon/css/material-design-iconic-font.min.css') }}">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{ url_for('user.static', filename='signupassets/css/style.css') }}">
+    <link href="{{ url_for('static', filename='assets/css/main.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.css') }}">
+
+</head>
+
+<body>
+    <!-- start banner Area -->
+    <div class="section1 banner-area" id="home">
+        <!-- Start Header Area -->
+        <header class="default-header">
+            <p></p>
+            <div class="row">
+                <div class="col-7 col-md-4">
+                    <h1 class="headTitle" style="text-align: center;"><a href="/">Trip India<span>.</span></a></h1>
+                </div>
+                <div class="col-5 col-md-8">
+                    <nav class="navbar navbar-expand-lg  navbar-light">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="text-white lnr lnr-menu"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse justify-content-end align-items-center"
+                                id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+
+
+                                    <!-- Uncomment below if you prefer to use an image logo -->
+                                    <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+                                    <li><a href="/home">Home</a></li>
+                                    <li><a href="/home#about">About</a></li>
+                                    <li><a href="/home#services">Services</a></li>
+                                    <li><a href="/home#contact">Contact</a></li>
+                                    <li><a href="/home#analytics">Analytics</a></li>
+                                    <li><a href="/touristdestination">Explore</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <p></p>
+
+        </header>
+
+        <!-- End Header Area -->
+    </div>
+    <div style="height:40px;"></div>
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4 main position-center">
+
+            <section class="signup">
+                <!-- <img src="images/signup-bg.jpg" alt=""> -->
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form" action="/user/signup">
+                        <h2 class="form-title">Create account</h2>
+                        <div style="height: 20px;"></div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="name" id="name" placeholder="Full Name" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="email" id="email" placeholder="Your Email" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="password" id="password"
+                                placeholder="Password" />
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="confirmpassword" id="re_password"
+                                placeholder="Confirm password" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="DOB" id="DOB" placeholder="DOB(DD/MM/YYYY)" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="country" id="country" placeholder="Country"
+                                value="India" />
+                        </div>
+                        <p> {{warning}}</p>
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up" />
+                        </div>
+
+                    </form>
+                    <p class="loginhere">
+                        Already have an account ? <a href="/user/login" class="loginhere-link">Login here</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="{{ url_for('user.static', filename='signupassets/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('user.static', filename='signupassets/js/main.js') }}"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
