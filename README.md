@@ -21,4 +21,4 @@ Itsdangerous, etc. are used to provide different functionalities of application.
 
 # Contact Us
 
-We are currently final year Student of SFIT Group-10.You can contact us at tripindia.iitj@gmail.com . 
+We are currently final year Student of SFIT Group-10.You can contact us at tripindia.sfit@gmail.com . 
